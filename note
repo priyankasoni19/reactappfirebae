@@ -1,0 +1,7 @@
+apiKey: process.env.APIKEY,
+    AUTHDOMAIN: process.env.AUTHDOMAIN,
+    DATABASEURL: process.env.DATABASEURL,
+    PROJECTID: process.env.PROJECTID,
+    STORAGEBUCKET: process.env.STORAGEBUCKET,
+    MESSAINGSENDERID: process.env.MESSAINGSENDERID,
+    APPID: process.env.APPID
