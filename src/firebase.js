@@ -7,13 +7,13 @@ import { getDatabase } from "firebase/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCYKvCJZUdvYfCi_eMDOniBQrDTkjj0Lxw",
-    authDomain: "coder-207bd.firebaseapp.com",
-    databaseURL: "https://coder-207bd-default-rtdb.firebaseio.com",
-    projectId: "coder-207bd",
-    storageBucket: "coder-207bd.appspot.com",
-    messagingSenderId: "522882637394",
-    appId: "1:522882637394:web:2206102031c914ff73498b"
+    apiKey: process.env.AY,
+    authDomain: process.env.AN,
+    databaseURL: process.env.DL,
+    projectId: process.env.PD,
+    storageBucket: process.env.ST,
+    messagingSenderId: process.env.MD,
+    appId: process.env.AD
 };
 
 // Initialize Firebase
